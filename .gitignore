@@ -1,0 +1,17 @@
+# Build outputs (Visual C++ / Rhapsody)
+*.exe
+*.obj
+*.ilk
+*.pdb
+*.lib
+# Rhapsody temporary / workspace files
+*.log
+*.save
+*.ehl
+*.rpw
+*.rpwx
+tmp*
+error.txt
+*_ATG/
+# Vendor driver files for the PCI-7841 CAN card (provided with the lab setup)
+Pci7841.h
