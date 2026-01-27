@@ -1,0 +1,412 @@
+I-Logix-RPY-Archive version 8.15.0 * 202303101727
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 66;
+	- value = "CodesGeneres\\AnimationConfig\\Ctrl.cpp" 12.16.2025::13:3:1
+	"CodesGeneres\\AnimationConfig\\Ctrl.h" 12.12.2025::17:0:59
+	"CodesGeneres\\AnimationConfig\\Griffe.cpp" 1.27.2026::8:37:54
+	"CodesGeneres\\AnimationConfig\\Griffe.h" 1.27.2026::8:37:54
+	"CodesGeneres\\AnimationConfig\\IHM.cpp" 12.23.2025::15:19:15
+	"CodesGeneres\\AnimationConfig\\IHM.h" 12.23.2025::15:19:15
+	"CodesGeneres\\AnimationConfig\\MAIN_SysConvoyage.cpp" 1.26.2026::19:50:0
+	"CodesGeneres\\AnimationConfig\\MAIN_SysConvoyage.h" 12.23.2025::17:14:30
+	"CodesGeneres\\AnimationConfig\\MaqTapisReelIO.cpp" 1.27.2026::9:34:14
+	"CodesGeneres\\AnimationConfig\\MaqTapisReelIO.h" 1.19.2026::14:42:16
+	"CodesGeneres\\AnimationConfig\\MaqTapisSimIO.cpp" 12.16.2025::15:14:24
+	"CodesGeneres\\AnimationConfig\\MaqTapisSimIO.h" 12.16.2025::15:14:24
+	"CodesGeneres\\AnimationConfig\\Maquette.cpp" 12.29.2025::14:27:28
+	"CodesGeneres\\AnimationConfig\\Maquette.h" 12.29.2025::14:27:28
+	"CodesGeneres\\AnimationConfig\\MaquetteIO.cpp" 12.16.2025::15:14:24
+	"CodesGeneres\\AnimationConfig\\MaquetteIO.h" 12.16.2025::15:14:24
+	"CodesGeneres\\AnimationConfig\\MaquetteTapis.cpp" 1.26.2026::20:19:14
+	"CodesGeneres\\AnimationConfig\\MaquetteTapis.h" 1.6.2026::12:19:36
+	"CodesGeneres\\AnimationConfig\\Maquette_Tapis.cpp" 12.16.2025::15:14:26
+	"CodesGeneres\\AnimationConfig\\Maquette_Tapis.h" 12.16.2025::15:14:26
+	"CodesGeneres\\AnimationConfig\\Operateur.cpp" 12.29.2025::14:27:28
+	"CodesGeneres\\AnimationConfig\\Operateur.h" 12.29.2025::14:27:28
+	"CodesGeneres\\AnimationConfig\\Operateur_1.cpp" 12.23.2025::15:19:15
+	"CodesGeneres\\AnimationConfig\\Operateur_1.h" 12.23.2025::15:19:14
+	"CodesGeneres\\AnimationConfig\\Operateur_2.cpp" 12.23.2025::15:19:14
+	"CodesGeneres\\AnimationConfig\\Operateur_2.h" 12.23.2025::15:19:14
+	"CodesGeneres\\AnimationConfig\\ProxyPortInterfaces.cpp" 1.27.2026::9:31:50
+	"CodesGeneres\\AnimationConfig\\ProxyPortInterfaces.h" 1.27.2026::9:31:50
+	"CodesGeneres\\AnimationConfig\\TapisA.cpp" 1.27.2026::7:34:24
+	"CodesGeneres\\AnimationConfig\\TapisA.h" 1.27.2026::7:34:24
+	"CodesGeneres\\AnimationConfig\\TapisB.cpp" 1.27.2026::7:36:58
+	"CodesGeneres\\AnimationConfig\\TapisB.h" 1.27.2026::7:36:58
+	"CodesGeneres\\AnimationConfig\\TapisC.cpp" 1.26.2026::19:40:28
+	"CodesGeneres\\AnimationConfig\\TapisC.h" 1.26.2026::19:40:26
+	"CodesGeneres\\AnimationConfig\\TrameCapteurs_read_capteurs_ProxyOperationInterface.h" 12.16.2025::15:14:24
+	"CodesGeneres\\AnimationConfig\\_ANALYSE.cpp" 12.16.2025::15:14:26
+	"CodesGeneres\\AnimationConfig\\_ANALYSE.h" 12.16.2025::15:14:26
+	"CodesGeneres\\AnimationConfig\\_DESIGN.cpp" 1.26.2026::18:55:20
+	"CodesGeneres\\AnimationConfig\\_DESIGN.h" 1.26.2026::18:55:18
+	"CodesGeneres\\AnimationConfig\\aTapis.cpp" 12.12.2025::17:0:59
+	"CodesGeneres\\AnimationConfig\\aTapis.h" 12.12.2025::17:0:59
+	"CodesGeneres\\AnimationConfig\\aTapisA.cpp" 12.16.2025::15:14:26
+	"CodesGeneres\\AnimationConfig\\aTapisA.h" 12.16.2025::15:14:26
+	"CodesGeneres\\AnimationConfig\\aTapisC.cpp" 12.16.2025::15:14:26
+	"CodesGeneres\\AnimationConfig\\aTapisC.h" 12.16.2025::15:14:26
+	"CodesGeneres\\AnimationConfig\\aUtilisateur.cpp" 12.16.2025::15:14:26
+	"CodesGeneres\\AnimationConfig\\aUtilisateur.h" 12.16.2025::15:14:26
+	"CodesGeneres\\AnimationConfig\\actor_2.cpp" 12.16.2025::15:14:26
+	"CodesGeneres\\AnimationConfig\\actor_2.h" 12.16.2025::15:14:26
+	"CodesGeneres\\AnimationConfig\\bool_isRunB_ProxyOperationInterface.h" 1.13.2026::9:55:37
+	"CodesGeneres\\AnimationConfig\\bool_isRun_ProxyOperationInterface.h" 1.13.2026::9:14:52
+	"CodesGeneres\\AnimationConfig\\bool_send_commandes_TrameCommandes_ProxyOperationInterface.h" 12.16.2025::15:14:24
+	"CodesGeneres\\AnimationConfig\\int_connect_to_maq_ProxyOperationInterface.h" 12.16.2025::15:14:24
+	"CodesGeneres\\AnimationConfig\\void_arreterA_ProxyOperationInterface.h" 12.16.2025::15:14:24
+	"CodesGeneres\\AnimationConfig\\void_arreterB_ProxyOperationInterface.h" 12.23.2025::17:14:30
+	"CodesGeneres\\AnimationConfig\\void_arreterC_ProxyOperationInterface.h" 12.16.2025::15:14:24
+	"CodesGeneres\\AnimationConfig\\void_avancerA_ProxyOperationInterface.h" 12.16.2025::15:14:24
+	"CodesGeneres\\AnimationConfig\\void_avancerB_ProxyOperationInterface.h" 12.23.2025::17:14:30
+	"CodesGeneres\\AnimationConfig\\void_avancerC_ProxyOperationInterface.h" 12.16.2025::15:14:24
+	"CodesGeneres\\AnimationConfig\\void_avancer_ProxyOperationInterface.h" 12.9.2025::14:54:0
+	"CodesGeneres\\AnimationConfig\\void_disconnect_ProxyOperationInterface.h" 12.16.2025::15:14:24
+	"CodesGeneres\\AnimationConfig\\void_griffeA_ProxyOperationInterface.h" 12.16.2025::15:14:24
+	"CodesGeneres\\AnimationConfig\\void_griffeB_ProxyOperationInterface.h" 12.16.2025::15:14:24
+	"CodesGeneres\\AnimationConfig\\void_reculerA_ProxyOperationInterface.h" 12.16.2025::15:14:24
+	"CodesGeneres\\AnimationConfig\\void_reculerB_ProxyOperationInterface.h" 12.23.2025::17:14:30
+	"CodesGeneres\\AnimationConfig\\void_reculerC_ProxyOperationInterface.h" 12.16.2025::15:14:24
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 3;
+	- value = "GUID 0de30903-a7cb-4460-b930-0ca94fe7bd37" "GUID ed950c6b-ed6b-49ca-86f7-b7f1de3d747f"
+	"GUID 1bc2ecce-faf7-4840-947b-5cbf239309a2" "GUID ed950c6b-ed6b-49ca-86f7-b7f1de3d747f"
+	"GUID 947e4c74-6843-4f1c-944f-3c342e02935a" "GUID ed950c6b-ed6b-49ca-86f7-b7f1de3d747f"
+	
+}
+- size = 56;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID fc5317ae-1eb0-4979-a6b8-d3a8a8391f7a;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 6a1ebcb1-cc87-40d6-a158-a736c3bd7bac;
+}
+- genTime = 1.27.2026::9:31:14;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 4d3a0372-ee84-429e-b46f-6ba717aea7d8;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\_DESIGN.sbsx";
+	- _subsystem = "_DESIGN";
+	- _name = "MaqTapisReelIO";
+	- _id = GUID 63b59bba-af1b-495a-a4ab-95e90ba503ec;
+}
+- genTime = 1.27.2026::9:34:14;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\Project_rpy\\_ANALYSE.sbsx";
+	- _subsystem = "_ANALYSE";
+	- _name = "actor_2";
+	- _id = GUID 6f4af1c4-0a85-473e-830f-3e6d586c4cd8;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\_DESIGN.sbsx";
+	- _subsystem = "_DESIGN";
+	- _name = "MaquetteTapis";
+	- _id = GUID 047c235f-93aa-4a94-b7bd-4a783de0c1e4;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID ec158dc9-3564-4b2f-aa89-a1793b7c0d01;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\_DESIGN.sbsx";
+	- _subsystem = "_DESIGN";
+	- _name = "Griffe";
+	- _id = GUID 766dd4af-770c-4f6f-b3fd-8a96309c62af;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 6a4a3313-dc35-4e37-9c58-9c42dd62534b;
+}
+- genTime = 1.27.2026::9:31:14;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID a16243d6-03ad-4d79-9b7f-63f79a16b95e;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID a827517e-e4d4-4c45-808d-5fe120b5d8ba;
+}
+- genTime = 1.27.2026::9:31:14;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 7b00da3b-faa1-4ba6-8871-dc3a808d3982;
+}
+- genTime = 1.27.2026::9:34:14;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID f51d3909-2e9d-4da9-812a-f5a02c61c879;
+}
+- genTime = 1.27.2026::9:31:14;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 9d396d0a-d5f7-46d8-8efc-661f73416523;
+}
+- genTime = 1.27.2026::9:34:14;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\Project_rpy\\_ANALYSE.sbsx";
+	- _name = "_ANALYSE";
+	- _id = GUID 0de30903-a7cb-4460-b930-0ca94fe7bd37;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\_DESIGN.sbsx";
+	- _subsystem = "_DESIGN";
+	- _name = "MaquetteIO";
+	- _id = GUID 44182d84-9424-409b-a5c1-05a2def3e90b;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\Project_rpy\\_ANALYSE.sbsx";
+	- _subsystem = "_ANALYSE";
+	- _name = "aTapisC";
+	- _id = GUID 1e885e5c-1812-47c9-b624-51a8540c06ef;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\Project_rpy\\_DESIGN.sbsx";
+	- _name = "_DESIGN";
+	- _id = GUID 1bc2ecce-faf7-4840-947b-5cbf239309a2;
+}
+- genTime = 1.27.2026::9:31:14;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID b5f5e39d-a428-45f4-8cf0-1c7c01dd647b;
+}
+- genTime = 1.27.2026::9:34:14;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 5b66de5e-4d6d-4f6f-9b8e-d4e51fa0b28d;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 81b10f84-9d67-4915-8c6b-b8e0ec71d6c4;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 32283ebc-cbb3-4caa-92fe-606e9974eccf;
+}
+- genTime = 1.27.2026::9:31:14;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 515e0033-ddb1-4f9d-8a0d-7d28df45705b;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID d9c50057-7419-409e-b2b7-78e2814bae54;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 57801a40-6314-4dd2-b6a3-af357f5a5527;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 7392be04-fb91-426f-b01e-b7da65e57eba;
+}
+- genTime = 1.27.2026::9:31:14;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\Project_rpy\\_ANALYSE.sbsx";
+	- _subsystem = "_ANALYSE";
+	- _name = "Operateur_2";
+	- _id = GUID 5b8546e3-d5dc-4043-8b6f-cb0f83ba6fbf;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\_DESIGN.sbsx";
+	- _subsystem = "_DESIGN";
+	- _name = "MAIN_SysConvoyage";
+	- _id = GUID 460813bd-5c0c-4197-bcb9-cedfc699a4c7;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID ae6f5614-4e66-4980-9cc5-9246cd901c66;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = ".\\..\\..\\Project_rpy\\CodesGeneres.cmpx";
+	- _name = "CodesGeneres\\AnimationConfig";
+	- _id = GUID a4784cf6-c57c-4639-875a-3f37eb9320e3;
+}
+- genTime = 1.27.2026::10:5:1;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 500d4615-4712-4d89-82df-7c6bd0e80d65;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 236ddaed-1f6b-4f61-a367-7aaeacee35d1;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 775e3758-022f-406b-99ac-05c935c501db;
+}
+- genTime = 1.27.2026::9:31:14;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 61b110dc-50be-4014-a988-8f9435d599c8;
+}
+- genTime = 1.27.2026::9:31:50;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID b02ff8ef-2115-49d0-af4c-978252fa4af3;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID c9c4c5be-93da-48d8-a68f-d06098301698;
+}
+- genTime = 1.27.2026::9:31:50;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 3a580283-d37e-44de-b277-b44f05e00e1e;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID f1dbc573-e537-46d0-8a62-73b0233967a0;
+}
+- genTime = 1.27.2026::9:31:50;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 2c47da14-60e4-48ec-8ba2-08bdf41cf8fa;
+}
+- genTime = 1.27.2026::9:31:50;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\_DESIGN.sbsx";
+	- _subsystem = "_DESIGN";
+	- _name = "TapisA";
+	- _id = GUID dc56b6ed-f10a-412b-8ab4-3be981abf52a;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\_DESIGN.sbsx";
+	- _subsystem = "_DESIGN";
+	- _name = "MaqTapisSimIO";
+	- _id = GUID 0e1d4a12-5cc6-480e-bd74-71beccd0d8b9;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 525dbf57-deee-425f-b7d7-b3ddaa7ee6ae;
+}
+- genTime = 1.27.2026::9:31:14;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 08dc50cf-5e01-4567-bebf-844e72f826ea;
+}
+- genTime = 1.27.2026::9:31:14;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID c7323772-df92-478b-b769-d2ff440c416a;
+}
+- genTime = 1.27.2026::9:31:14;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 3c52f135-0d38-4e93-88e8-76f70e435457;
+}
+- genTime = 1.27.2026::9:31:50;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID cf102862-2326-47c5-bc4e-5f23fa268159;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\_DESIGN.sbsx";
+	- _subsystem = "_DESIGN";
+	- _name = "TapisB";
+	- _id = GUID 2f48757a-cc95-4f17-a93c-5f4ab098acbb;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 97ed2c04-b7f2-44f3-b2b7-5ed62962b2d9;
+}
+- genTime = 1.27.2026::9:31:14;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 8209b04d-6a55-4849-a4fd-d04164d9e75f;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\Project_rpy\\_ANALYSE.sbsx";
+	- _subsystem = "_ANALYSE";
+	- _name = "aTapisA";
+	- _id = GUID 134d4868-66b3-4283-bab4-418d9422e2d1;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\Project_rpy\\_ANALYSE.sbsx";
+	- _subsystem = "_ANALYSE";
+	- _name = "Operateur";
+	- _id = GUID 5b04a26f-e56b-46c9-a1e3-74853ca1c439;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 10bd569f-ab57-43e7-969e-e6f58fc4b969;
+}
+- genTime = 1.27.2026::9:34:14;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID bd729f74-b889-4c0d-9ced-f81dfa7d5606;
+}
+- genTime = 1.27.2026::9:31:14;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\Project_rpy\\_ANALYSE.sbsx";
+	- _subsystem = "_ANALYSE";
+	- _name = "Maquette";
+	- _id = GUID 021846b0-3bf3-4035-a06b-20d130934065;
+}
+- genTime = 1.27.2026::9:19:16;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID a50d906c-9462-41b7-a9dd-0840e4a5eb23;
+}
+- genTime = 1.27.2026::9:34:14;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\_DESIGN.sbsx";
+	- _subsystem = "_DESIGN";
+	- _name = "TapisC";
+	- _id = GUID e57c0e08-63e9-4e58-843c-26b2f5208514;
+}
+- genTime = 1.27.2026::9:31:14;
+
