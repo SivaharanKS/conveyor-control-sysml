@@ -4,7 +4,7 @@
 	Component	: CodesGeneres 
 	Configuration 	: AnimationConfig
 	Model Element	: TapisB
-//!	Generated Date	: Tue, 27, Jan 2026  
+//!	Generated Date	: Thu, 29, Jan 2026  
 	File Path	: CodesGeneres\AnimationConfig\TapisB.cpp
 *********************************************************************/
 
@@ -903,7 +903,7 @@ IOxfReactive::TakeEventStatus TapisB::state_12_processEvent() {
         // State AttenteGriffe
         case AttenteGriffe:
         {
-            if(IS_EVENT_TYPE_OF(evVERSB__DESIGN_id))
+            if(IS_EVENT_TYPE_OF(evVERB__DESIGN_id))
                 {
                     NOTIFY_TRANSITION_STARTED("20");
                     NOTIFY_STATE_EXITED("ROOT.state_9.state_12.AttenteGriffe");
@@ -1019,18 +1019,21 @@ void TapisB::state_11_exit() {
         // State Initialisation
         case Initialisation:
         {
+            popNullTransition();
             NOTIFY_STATE_EXITED("ROOT.state_9.state_11.Initialisation");
         }
         break;
         // State Debut_B
         case Debut_B:
         {
+            popNullTransition();
             NOTIFY_STATE_EXITED("ROOT.state_9.state_11.Debut_B");
         }
         break;
         // State Avancer_B
         case Avancer_B:
         {
+            popNullTransition();
             NOTIFY_STATE_EXITED("ROOT.state_9.state_11.Avancer_B");
         }
         break;
@@ -1044,6 +1047,7 @@ void TapisB::state_11_exit() {
         // State Avancer_B_apres_griffe
         case Avancer_B_apres_griffe:
         {
+            popNullTransition();
             NOTIFY_STATE_EXITED("ROOT.state_9.state_11.Avancer_B_apres_griffe");
         }
         break;
@@ -1056,12 +1060,14 @@ void TapisB::state_11_exit() {
         // State Benne_B
         case Benne_B:
         {
+            popNullTransition();
             NOTIFY_STATE_EXITED("ROOT.state_9.state_11.Benne_B");
         }
         break;
         // State Retour_B
         case Retour_B:
         {
+            popNullTransition();
             NOTIFY_STATE_EXITED("ROOT.state_9.state_11.Retour_B");
         }
         break;
@@ -1086,208 +1092,120 @@ IOxfReactive::TakeEventStatus TapisB::state_11_processEvent() {
         // State Initialisation
         case Initialisation:
         {
-            if(IS_EVENT_TYPE_OF(evDCB__DESIGN_id))
-                {
-                    NOTIFY_TRANSITION_STARTED("0");
-                    NOTIFY_STATE_EXITED("ROOT.state_9.state_11.Initialisation");
-                    NOTIFY_STATE_ENTERED("ROOT.state_9.state_11.Debut_B");
-                    state_11_subState = Debut_B;
-                    state_11_active = Debut_B;
-                    NOTIFY_TRANSITION_TERMINATED("0");
-                    res = eventConsumed;
-                }
             
-            
-        }
-        break;
-        // State Debut_B
-        case Debut_B:
-        {
-            if(IS_EVENT_TYPE_OF(evDEBB__DESIGN_id))
-                {
-                    NOTIFY_TRANSITION_STARTED("1");
-                    NOTIFY_STATE_EXITED("ROOT.state_9.state_11.Debut_B");
-                    //#[ transition 1 
-                    p_Commandes.avancerB();
-                    //#]
-                    NOTIFY_STATE_ENTERED("ROOT.state_9.state_11.Avancer_B");
-                    state_11_subState = Avancer_B;
-                    state_11_active = Avancer_B;
-                    NOTIFY_TRANSITION_TERMINATED("1");
-                    res = eventConsumed;
-                }
-            
-            
-        }
-        break;
-        // State Avancer_B
-        case Avancer_B:
-        {
-            if(IS_EVENT_TYPE_OF(evMIB__DESIGN_id))
-                {
-                    NOTIFY_TRANSITION_STARTED("2");
-                    NOTIFY_STATE_EXITED("ROOT.state_9.state_11.Avancer_B");
-                    //#[ transition 2 
-                    p_Commandes.arreterB();
-                    RunB = true;
-                    //#]
-                    NOTIFY_STATE_ENTERED("ROOT.state_9.state_11.Arreter_B");
-                    pushNullTransition();
-                    state_11_subState = Arreter_B;
-                    state_11_active = Arreter_B;
-                    NOTIFY_TRANSITION_TERMINATED("2");
-                    res = eventConsumed;
-                }
-            
-            
-        }
-        break;
-        // State Arreter_B
-        case Arreter_B:
-        {
-            if(IS_EVENT_TYPE_OF(evVERSB__DESIGN_id))
-                {
-                    //## transition 3 
-                    if(!RunA)
-                        {
-                            NOTIFY_TRANSITION_STARTED("3");
-                            popNullTransition();
-                            NOTIFY_STATE_EXITED("ROOT.state_9.state_11.Arreter_B");
-                            //#[ transition 3 
-                            p_Commandes.avancerB();
-                            //#]
-                            NOTIFY_STATE_ENTERED("ROOT.state_9.state_11.Avancer_B_apres_griffe");
-                            state_11_subState = Avancer_B_apres_griffe;
-                            state_11_active = Avancer_B_apres_griffe;
-                            NOTIFY_TRANSITION_TERMINATED("3");
-                            res = eventConsumed;
-                        }
-                }
-            else if(IS_EVENT_TYPE_OF(OMNullEventId))
-                {
-                    //## transition 9 
-                    if(RunA)
-                        {
-                            NOTIFY_TRANSITION_STARTED("9");
-                            popNullTransition();
-                            NOTIFY_STATE_EXITED("ROOT.state_9.state_11.Arreter_B");
-                            //#[ transition 9 
-                            p_Commandes.arreterB();
-                            //#]
-                            NOTIFY_STATE_ENTERED("ROOT.state_9.state_11.Arreter_B");
-                            pushNullTransition();
-                            state_11_subState = Arreter_B;
-                            state_11_active = Arreter_B;
-                            NOTIFY_TRANSITION_TERMINATED("9");
-                            res = eventConsumed;
-                        }
-                }
-            
-            
-        }
-        break;
-        // State Avancer_B_apres_griffe
-        case Avancer_B_apres_griffe:
-        {
-            if(IS_EVENT_TYPE_OF(evFINB__DESIGN_id))
-                {
-                    NOTIFY_TRANSITION_STARTED("4");
-                    NOTIFY_STATE_EXITED("ROOT.state_9.state_11.Avancer_B_apres_griffe");
-                    //#[ transition 4 
-                    p_Commandes.arreterB();
-                    //#]
-                    NOTIFY_STATE_ENTERED("ROOT.state_9.state_11.Rien_B");
-                    state_11_subState = Rien_B;
-                    state_11_active = Rien_B;
-                    NOTIFY_TRANSITION_TERMINATED("4");
-                    res = eventConsumed;
-                }
-            
-            
-        }
-        break;
-        // State Rien_B
-        case Rien_B:
-        {
-            if(IS_EVENT_TYPE_OF(evFINC__DESIGN_id))
-                {
-                    NOTIFY_TRANSITION_STARTED("5");
-                    NOTIFY_STATE_EXITED("ROOT.state_9.state_11.Rien_B");
-                    NOTIFY_STATE_ENTERED("ROOT.state_9.state_11.Benne_B");
-                    state_11_subState = Benne_B;
-                    state_11_active = Benne_B;
-                    NOTIFY_TRANSITION_TERMINATED("5");
-                    res = eventConsumed;
-                }
-            
-            
-        }
-        break;
-        // State Benne_B
-        case Benne_B:
-        {
-            if(IS_EVENT_TYPE_OF(evVERSB__DESIGN_id))
-                {
-                    NOTIFY_TRANSITION_STARTED("6");
-                    NOTIFY_STATE_EXITED("ROOT.state_9.state_11.Benne_B");
-                    //#[ transition 6 
-                    p_Commandes.reculerB();
-                    //#]
-                    NOTIFY_STATE_ENTERED("ROOT.state_9.state_11.Retour_B");
-                    state_11_subState = Retour_B;
-                    state_11_active = Retour_B;
-                    NOTIFY_TRANSITION_TERMINATED("6");
-                    res = eventConsumed;
-                }
-            
-            
-        }
-        break;
-        // State Retour_B
-        case Retour_B:
-        {
-            if(IS_EVENT_TYPE_OF(evDEBB__DESIGN_id))
-                {
-                    NOTIFY_TRANSITION_STARTED("7");
-                    NOTIFY_STATE_EXITED("ROOT.state_9.state_11.Retour_B");
-                    //#[ transition 7 
-                    p_Commandes.arreterB();
-                    RunB = false;
-                    //#]
-                    NOTIFY_STATE_ENTERED("ROOT.state_9.state_11.Debut_B");
-                    state_11_subState = Debut_B;
-                    state_11_active = Debut_B;
-                    NOTIFY_TRANSITION_TERMINATED("7");
-                    res = eventConsumed;
-                }
-            
-            
-        }
-        break;
-        // State init
-        case init:
-        {
-            if(IS_EVENT_TYPE_OF(OMNullEventId))
-                {
-                    //## transition 10 
-                    if(choix==1)
-                        {
-                            NOTIFY_TRANSITION_STARTED("10");
-                            popNullTransition();
-                            NOTIFY_STATE_EXITED("ROOT.state_9.state_11.init");
-                            NOTIFY_STATE_ENTERED("ROOT.state_9.state_11.Initialisation");
-                            state_11_subState = Initialisation;
-                            state_11_active = Initialisation;
-                            NOTIFY_TRANSITION_TERMINATED("10");
-                            res = eventConsumed;
-                        }
-                }
-            
-            
-        }
-        break;
-        default:
-            break;
+        
+        
+    }
+    break;
+    // State Debut_B
+    case Debut_B:
+    {
+        
+    
+    
+    }
+    break;
+    // State Avancer_B
+    case Avancer_B:
+    {
+    
+    
+    
+    }
+    break;
+    // State Arreter_B
+    case Arreter_B:
+    {
+    if(IS_EVENT_TYPE_OF(OMNullEventId))
+    {
+        //## transition 9 
+        if(RunA)
+            {
+                NOTIFY_TRANSITION_STARTED("9");
+                popNullTransition();
+                NOTIFY_STATE_EXITED("ROOT.state_9.state_11.Arreter_B");
+                //#[ transition 9 
+                p_Commandes.arreterB();
+                //#]
+                NOTIFY_STATE_ENTERED("ROOT.state_9.state_11.Arreter_B");
+                pushNullTransition();
+                state_11_subState = Arreter_B;
+                state_11_active = Arreter_B;
+                NOTIFY_TRANSITION_TERMINATED("9");
+                res = eventConsumed;
+            }
+    }
+    
+    
+    }
+    break;
+    // State Avancer_B_apres_griffe
+    case Avancer_B_apres_griffe:
+    {
+    
+    
+    
+    }
+    break;
+    // State Rien_B
+    case Rien_B:
+    {
+    if(IS_EVENT_TYPE_OF(evFINC__DESIGN_id))
+    {
+    NOTIFY_TRANSITION_STARTED("5");
+    NOTIFY_STATE_EXITED("ROOT.state_9.state_11.Rien_B");
+    NOTIFY_STATE_ENTERED("ROOT.state_9.state_11.Benne_B");
+    pushNullTransition();
+    state_11_subState = Benne_B;
+    state_11_active = Benne_B;
+    NOTIFY_TRANSITION_TERMINATED("5");
+    res = eventConsumed;
+    }
+    
+    
+    }
+    break;
+    // State Benne_B
+    case Benne_B:
+    {
+    
+    
+    
+    }
+    break;
+    // State Retour_B
+    case Retour_B:
+    {
+    
+    
+    
+    }
+    break;
+    // State init
+    case init:
+    {
+    if(IS_EVENT_TYPE_OF(OMNullEventId))
+    {
+    //## transition 10 
+    if(choix==1)
+    {
+    NOTIFY_TRANSITION_STARTED("10");
+    popNullTransition();
+    NOTIFY_STATE_EXITED("ROOT.state_9.state_11.init");
+    NOTIFY_STATE_ENTERED("ROOT.state_9.state_11.Initialisation");
+    pushNullTransition();
+    state_11_subState = Initialisation;
+    state_11_active = Initialisation;
+    NOTIFY_TRANSITION_TERMINATED("10");
+    res = eventConsumed;
+    }
+    }
+    
+    
+    }
+    break;
+    default:
+    break;
     }
     return res;
 }

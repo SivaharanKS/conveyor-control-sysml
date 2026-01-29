@@ -4,7 +4,7 @@
 	Component	: CodesGeneres 
 	Configuration 	: AnimationConfig
 	Model Element	: _DESIGN
-//!	Generated Date	: Mon, 26, Jan 2026  
+//!	Generated Date	: Thu, 29, Jan 2026  
 	File Path	: CodesGeneres\AnimationConfig\_DESIGN.cpp
 *********************************************************************/
 
@@ -69,12 +69,6 @@
 
 #define evVERSA_CONSTRUCTOR evVERSA()
 
-#define evVERSB_SERIALIZE OM_NO_OP
-
-#define evVERSB_UNSERIALIZE OM_NO_OP
-
-#define evVERSB_CONSTRUCTOR evVERSB()
-
 #define evDEBC_SERIALIZE OM_NO_OP
 
 #define evDEBC_UNSERIALIZE OM_NO_OP
@@ -99,30 +93,6 @@
 
 #define evDCA_CONSTRUCTOR evDCA()
 
-#define evDCB_SERIALIZE OM_NO_OP
-
-#define evDCB_UNSERIALIZE OM_NO_OP
-
-#define evDCB_CONSTRUCTOR evDCB()
-
-#define evDEBB_SERIALIZE OM_NO_OP
-
-#define evDEBB_UNSERIALIZE OM_NO_OP
-
-#define evDEBB_CONSTRUCTOR evDEBB()
-
-#define evMIB_SERIALIZE OM_NO_OP
-
-#define evMIB_UNSERIALIZE OM_NO_OP
-
-#define evMIB_CONSTRUCTOR evMIB()
-
-#define evFINB_SERIALIZE OM_NO_OP
-
-#define evFINB_UNSERIALIZE OM_NO_OP
-
-#define evFINB_CONSTRUCTOR evFINB()
-
 #define ev_SERIALIZE OM_NO_OP
 
 #define ev_UNSERIALIZE OM_NO_OP
@@ -134,12 +104,6 @@
 #define evVERB_UNSERIALIZE OM_NO_OP
 
 #define evVERB_CONSTRUCTOR evVERB()
-
-#define eventmessage_0_SERIALIZE OM_NO_OP
-
-#define eventmessage_0_UNSERIALIZE OM_NO_OP
-
-#define eventmessage_0_CONSTRUCTOR eventmessage_0()
 
 #define evdebug_SERIALIZE OM_NO_OP
 
@@ -176,6 +140,48 @@
 #define evRUNB_UNSERIALIZE OM_NO_OP
 
 #define evRUNB_CONSTRUCTOR evRUNB()
+
+#define evDEBB_SERIALIZE OM_NO_OP
+
+#define evDEBB_UNSERIALIZE OM_NO_OP
+
+#define evDEBB_CONSTRUCTOR evDEBB()
+
+#define evMIB_SERIALIZE OM_NO_OP
+
+#define evMIB_UNSERIALIZE OM_NO_OP
+
+#define evMIB_CONSTRUCTOR evMIB()
+
+#define evVERSB_SERIALIZE OM_NO_OP
+
+#define evVERSB_UNSERIALIZE OM_NO_OP
+
+#define evVERSB_CONSTRUCTOR evVERSB()
+
+#define evFINB_SERIALIZE OM_NO_OP
+
+#define evFINB_UNSERIALIZE OM_NO_OP
+
+#define evFINB_CONSTRUCTOR evFINB()
+
+#define eventmessage_0_SERIALIZE OM_NO_OP
+
+#define eventmessage_0_UNSERIALIZE OM_NO_OP
+
+#define eventmessage_0_CONSTRUCTOR eventmessage_0()
+
+#define evDCB_SERIALIZE OM_NO_OP
+
+#define evDCB_UNSERIALIZE OM_NO_OP
+
+#define evDCB_CONSTRUCTOR evDCB()
+
+#define FINB_SERIALIZE OM_NO_OP
+
+#define FINB_UNSERIALIZE OM_NO_OP
+
+#define FINB_CONSTRUCTOR FINB()
 //#]
 
 //## package _DESIGN
@@ -262,18 +268,6 @@ bool evVERSA::isTypeOf(const short id) const {
 
 IMPLEMENT_META_EVENT_P(evVERSA, _DESIGN, _DESIGN, evVERSA())
 
-//## event evVERSB()
-evVERSB::evVERSB() {
-    NOTIFY_EVENT_CONSTRUCTOR(evVERSB)
-    setId(evVERSB__DESIGN_id);
-}
-
-bool evVERSB::isTypeOf(const short id) const {
-    return (evVERSB__DESIGN_id==id);
-}
-
-IMPLEMENT_META_EVENT_P(evVERSB, _DESIGN, _DESIGN, evVERSB())
-
 //## event evDEBC()
 evDEBC::evDEBC() {
     NOTIFY_EVENT_CONSTRUCTOR(evDEBC)
@@ -322,54 +316,6 @@ bool evDCA::isTypeOf(const short id) const {
 
 IMPLEMENT_META_EVENT_P(evDCA, _DESIGN, _DESIGN, evDCA())
 
-//## event evDCB()
-evDCB::evDCB() {
-    NOTIFY_EVENT_CONSTRUCTOR(evDCB)
-    setId(evDCB__DESIGN_id);
-}
-
-bool evDCB::isTypeOf(const short id) const {
-    return (evDCB__DESIGN_id==id);
-}
-
-IMPLEMENT_META_EVENT_P(evDCB, _DESIGN, _DESIGN, evDCB())
-
-//## event evDEBB()
-evDEBB::evDEBB() {
-    NOTIFY_EVENT_CONSTRUCTOR(evDEBB)
-    setId(evDEBB__DESIGN_id);
-}
-
-bool evDEBB::isTypeOf(const short id) const {
-    return (evDEBB__DESIGN_id==id);
-}
-
-IMPLEMENT_META_EVENT_P(evDEBB, _DESIGN, _DESIGN, evDEBB())
-
-//## event evMIB()
-evMIB::evMIB() {
-    NOTIFY_EVENT_CONSTRUCTOR(evMIB)
-    setId(evMIB__DESIGN_id);
-}
-
-bool evMIB::isTypeOf(const short id) const {
-    return (evMIB__DESIGN_id==id);
-}
-
-IMPLEMENT_META_EVENT_P(evMIB, _DESIGN, _DESIGN, evMIB())
-
-//## event evFINB()
-evFINB::evFINB() {
-    NOTIFY_EVENT_CONSTRUCTOR(evFINB)
-    setId(evFINB__DESIGN_id);
-}
-
-bool evFINB::isTypeOf(const short id) const {
-    return (evFINB__DESIGN_id==id);
-}
-
-IMPLEMENT_META_EVENT_P(evFINB, _DESIGN, _DESIGN, evFINB())
-
 //## event ev()
 ev::ev() {
     NOTIFY_EVENT_CONSTRUCTOR(ev)
@@ -393,18 +339,6 @@ bool evVERB::isTypeOf(const short id) const {
 }
 
 IMPLEMENT_META_EVENT_P(evVERB, _DESIGN, _DESIGN, evVERB())
-
-//## event eventmessage_0()
-eventmessage_0::eventmessage_0() {
-    NOTIFY_EVENT_CONSTRUCTOR(eventmessage_0)
-    setId(eventmessage_0__DESIGN_id);
-}
-
-bool eventmessage_0::isTypeOf(const short id) const {
-    return (eventmessage_0__DESIGN_id==id);
-}
-
-IMPLEMENT_META_EVENT_P(eventmessage_0, _DESIGN, _DESIGN, eventmessage_0())
 
 //## event evdebug()
 evdebug::evdebug() {
@@ -477,6 +411,90 @@ bool evRUNB::isTypeOf(const short id) const {
 }
 
 IMPLEMENT_META_EVENT_P(evRUNB, _DESIGN, _DESIGN, evRUNB())
+
+//## event evDEBB()
+evDEBB::evDEBB() {
+    NOTIFY_EVENT_CONSTRUCTOR(evDEBB)
+    setId(evDEBB__DESIGN_id);
+}
+
+bool evDEBB::isTypeOf(const short id) const {
+    return (evDEBB__DESIGN_id==id);
+}
+
+IMPLEMENT_META_EVENT_P(evDEBB, _DESIGN, _DESIGN, evDEBB())
+
+//## event evMIB()
+evMIB::evMIB() {
+    NOTIFY_EVENT_CONSTRUCTOR(evMIB)
+    setId(evMIB__DESIGN_id);
+}
+
+bool evMIB::isTypeOf(const short id) const {
+    return (evMIB__DESIGN_id==id);
+}
+
+IMPLEMENT_META_EVENT_P(evMIB, _DESIGN, _DESIGN, evMIB())
+
+//## event evVERSB()
+evVERSB::evVERSB() {
+    NOTIFY_EVENT_CONSTRUCTOR(evVERSB)
+    setId(evVERSB__DESIGN_id);
+}
+
+bool evVERSB::isTypeOf(const short id) const {
+    return (evVERSB__DESIGN_id==id);
+}
+
+IMPLEMENT_META_EVENT_P(evVERSB, _DESIGN, _DESIGN, evVERSB())
+
+//## event evFINB()
+evFINB::evFINB() {
+    NOTIFY_EVENT_CONSTRUCTOR(evFINB)
+    setId(evFINB__DESIGN_id);
+}
+
+bool evFINB::isTypeOf(const short id) const {
+    return (evFINB__DESIGN_id==id);
+}
+
+IMPLEMENT_META_EVENT_P(evFINB, _DESIGN, _DESIGN, evFINB())
+
+//## event eventmessage_0()
+eventmessage_0::eventmessage_0() {
+    NOTIFY_EVENT_CONSTRUCTOR(eventmessage_0)
+    setId(eventmessage_0__DESIGN_id);
+}
+
+bool eventmessage_0::isTypeOf(const short id) const {
+    return (eventmessage_0__DESIGN_id==id);
+}
+
+IMPLEMENT_META_EVENT_P(eventmessage_0, _DESIGN, _DESIGN, eventmessage_0())
+
+//## event evDCB()
+evDCB::evDCB() {
+    NOTIFY_EVENT_CONSTRUCTOR(evDCB)
+    setId(evDCB__DESIGN_id);
+}
+
+bool evDCB::isTypeOf(const short id) const {
+    return (evDCB__DESIGN_id==id);
+}
+
+IMPLEMENT_META_EVENT_P(evDCB, _DESIGN, _DESIGN, evDCB())
+
+//## event FINB()
+FINB::FINB() {
+    NOTIFY_EVENT_CONSTRUCTOR(FINB)
+    setId(FINB__DESIGN_id);
+}
+
+bool FINB::isTypeOf(const short id) const {
+    return (FINB__DESIGN_id==id);
+}
+
+IMPLEMENT_META_EVENT_P(FINB, _DESIGN, _DESIGN, FINB())
 
 /*********************************************************************
 	File Path	: CodesGeneres\AnimationConfig\_DESIGN.cpp

@@ -4,7 +4,7 @@
 	Component	: CodesGeneres 
 	Configuration 	: AnimationConfig
 	Model Element	: Griffe
-//!	Generated Date	: Tue, 27, Jan 2026  
+//!	Generated Date	: Thu, 29, Jan 2026  
 	File Path	: CodesGeneres\AnimationConfig\Griffe.cpp
 *********************************************************************/
 
@@ -725,7 +725,7 @@ IOxfReactive::TakeEventStatus Griffe::state_16_processEvent() {
         // State B
         case state_16_B:
         {
-            if(IS_EVENT_TYPE_OF(evFINB__DESIGN_id))
+            if(IS_EVENT_TYPE_OF(FINB__DESIGN_id))
                 {
                     NOTIFY_TRANSITION_STARTED("16");
                     NOTIFY_STATE_EXITED("ROOT.state_14.state_16.B");
@@ -871,6 +871,7 @@ void Griffe::state_15_exit() {
         // State A
         case A:
         {
+            popNullTransition();
             NOTIFY_STATE_EXITED("ROOT.state_14.state_15.A");
         }
         break;
@@ -924,6 +925,7 @@ IOxfReactive::TakeEventStatus Griffe::state_15_processEvent() {
                     NOTIFY_TRANSITION_STARTED("1");
                     NOTIFY_STATE_EXITED("ROOT.state_14.state_15.versA");
                     NOTIFY_STATE_ENTERED("ROOT.state_14.state_15.A");
+                    pushNullTransition();
                     state_15_subState = A;
                     state_15_active = A;
                     NOTIFY_TRANSITION_TERMINATED("1");
@@ -936,26 +938,10 @@ IOxfReactive::TakeEventStatus Griffe::state_15_processEvent() {
         // State A
         case A:
         {
-            if(IS_EVENT_TYPE_OF(evMIB__DESIGN_id))
-                {
-                    //## transition 10 
-                    if(!RunA)
-                        {
-                            NOTIFY_TRANSITION_STARTED("10");
-                            NOTIFY_STATE_EXITED("ROOT.state_14.state_15.A");
-                            //#[ transition 10 
-                            p_Commandes.griffeB();
-                            //#]
-                            NOTIFY_STATE_ENTERED("ROOT.state_14.state_15.versB");
-                            state_15_subState = versB;
-                            state_15_active = versB;
-                            NOTIFY_TRANSITION_TERMINATED("10");
-                            res = eventConsumed;
-                        }
-                }
-            else if(IS_EVENT_TYPE_OF(evDEBC__DESIGN_id))
+            if(IS_EVENT_TYPE_OF(evDEBC__DESIGN_id))
                 {
                     NOTIFY_TRANSITION_STARTED("8");
+                    popNullTransition();
                     NOTIFY_STATE_EXITED("ROOT.state_14.state_15.A");
                     //#[ transition 8 
                     p_Commandes.griffeB();
@@ -969,6 +955,7 @@ IOxfReactive::TakeEventStatus Griffe::state_15_processEvent() {
             else if(IS_EVENT_TYPE_OF(evFINA__DESIGN_id))
                 {
                     NOTIFY_TRANSITION_STARTED("2");
+                    popNullTransition();
                     NOTIFY_STATE_EXITED("ROOT.state_14.state_15.A");
                     //#[ transition 2 
                     p_Commandes.griffeB();
@@ -1058,6 +1045,7 @@ IOxfReactive::TakeEventStatus Griffe::state_15_processEvent() {
                     NOTIFY_TRANSITION_STARTED("6");
                     NOTIFY_STATE_EXITED("ROOT.state_14.state_15.retour_A");
                     NOTIFY_STATE_ENTERED("ROOT.state_14.state_15.A");
+                    pushNullTransition();
                     state_15_subState = A;
                     state_15_active = A;
                     NOTIFY_TRANSITION_TERMINATED("6");

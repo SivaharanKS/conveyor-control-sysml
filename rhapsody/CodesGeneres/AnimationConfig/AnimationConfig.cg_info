@@ -4,14 +4,14 @@ I-Logix-RPY-Archive version 8.15.0 * 202303101727
 	- size = 66;
 	- value = "CodesGeneres\\AnimationConfig\\Ctrl.cpp" 12.16.2025::13:3:1
 	"CodesGeneres\\AnimationConfig\\Ctrl.h" 12.12.2025::17:0:59
-	"CodesGeneres\\AnimationConfig\\Griffe.cpp" 1.27.2026::8:37:54
+	"CodesGeneres\\AnimationConfig\\Griffe.cpp" 1.29.2026::18:32:55
 	"CodesGeneres\\AnimationConfig\\Griffe.h" 1.27.2026::8:37:54
 	"CodesGeneres\\AnimationConfig\\IHM.cpp" 12.23.2025::15:19:15
 	"CodesGeneres\\AnimationConfig\\IHM.h" 12.23.2025::15:19:15
 	"CodesGeneres\\AnimationConfig\\MAIN_SysConvoyage.cpp" 1.26.2026::19:50:0
 	"CodesGeneres\\AnimationConfig\\MAIN_SysConvoyage.h" 12.23.2025::17:14:30
-	"CodesGeneres\\AnimationConfig\\MaqTapisReelIO.cpp" 1.27.2026::9:34:14
-	"CodesGeneres\\AnimationConfig\\MaqTapisReelIO.h" 1.19.2026::14:42:16
+	"CodesGeneres\\AnimationConfig\\MaqTapisReelIO.cpp" 1.29.2026::18:32:55
+	"CodesGeneres\\AnimationConfig\\MaqTapisReelIO.h" 1.29.2026::18:32:55
 	"CodesGeneres\\AnimationConfig\\MaqTapisSimIO.cpp" 12.16.2025::15:14:24
 	"CodesGeneres\\AnimationConfig\\MaqTapisSimIO.h" 12.16.2025::15:14:24
 	"CodesGeneres\\AnimationConfig\\Maquette.cpp" 12.29.2025::14:27:28
@@ -28,19 +28,19 @@ I-Logix-RPY-Archive version 8.15.0 * 202303101727
 	"CodesGeneres\\AnimationConfig\\Operateur_1.h" 12.23.2025::15:19:14
 	"CodesGeneres\\AnimationConfig\\Operateur_2.cpp" 12.23.2025::15:19:14
 	"CodesGeneres\\AnimationConfig\\Operateur_2.h" 12.23.2025::15:19:14
-	"CodesGeneres\\AnimationConfig\\ProxyPortInterfaces.cpp" 1.27.2026::9:31:50
-	"CodesGeneres\\AnimationConfig\\ProxyPortInterfaces.h" 1.27.2026::9:31:50
+	"CodesGeneres\\AnimationConfig\\ProxyPortInterfaces.cpp" 1.29.2026::17:45:30
+	"CodesGeneres\\AnimationConfig\\ProxyPortInterfaces.h" 1.29.2026::17:45:30
 	"CodesGeneres\\AnimationConfig\\TapisA.cpp" 1.27.2026::7:34:24
 	"CodesGeneres\\AnimationConfig\\TapisA.h" 1.27.2026::7:34:24
-	"CodesGeneres\\AnimationConfig\\TapisB.cpp" 1.27.2026::7:36:58
+	"CodesGeneres\\AnimationConfig\\TapisB.cpp" 1.29.2026::18:32:55
 	"CodesGeneres\\AnimationConfig\\TapisB.h" 1.27.2026::7:36:58
-	"CodesGeneres\\AnimationConfig\\TapisC.cpp" 1.26.2026::19:40:28
-	"CodesGeneres\\AnimationConfig\\TapisC.h" 1.26.2026::19:40:26
+	"CodesGeneres\\AnimationConfig\\TapisC.cpp" 1.29.2026::18:32:55
+	"CodesGeneres\\AnimationConfig\\TapisC.h" 1.29.2026::18:32:55
 	"CodesGeneres\\AnimationConfig\\TrameCapteurs_read_capteurs_ProxyOperationInterface.h" 12.16.2025::15:14:24
 	"CodesGeneres\\AnimationConfig\\_ANALYSE.cpp" 12.16.2025::15:14:26
 	"CodesGeneres\\AnimationConfig\\_ANALYSE.h" 12.16.2025::15:14:26
-	"CodesGeneres\\AnimationConfig\\_DESIGN.cpp" 1.26.2026::18:55:20
-	"CodesGeneres\\AnimationConfig\\_DESIGN.h" 1.26.2026::18:55:18
+	"CodesGeneres\\AnimationConfig\\_DESIGN.cpp" 1.29.2026::18:32:55
+	"CodesGeneres\\AnimationConfig\\_DESIGN.h" 1.29.2026::18:32:55
 	"CodesGeneres\\AnimationConfig\\aTapis.cpp" 12.12.2025::17:0:59
 	"CodesGeneres\\AnimationConfig\\aTapis.h" 12.12.2025::17:0:59
 	"CodesGeneres\\AnimationConfig\\aTapisA.cpp" 12.16.2025::15:14:26
@@ -71,28 +71,27 @@ I-Logix-RPY-Archive version 8.15.0 * 202303101727
 	
 }
 - m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
-	- size = 3;
+	- size = 4;
 	- value = "GUID 0de30903-a7cb-4460-b930-0ca94fe7bd37" "GUID ed950c6b-ed6b-49ca-86f7-b7f1de3d747f"
 	"GUID 1bc2ecce-faf7-4840-947b-5cbf239309a2" "GUID ed950c6b-ed6b-49ca-86f7-b7f1de3d747f"
+	"GUID 620d9e2e-534b-4056-b439-ee4e2804ea61" "GUID ed950c6b-ed6b-49ca-86f7-b7f1de3d747f"
 	"GUID 947e4c74-6843-4f1c-944f-3c342e02935a" "GUID ed950c6b-ed6b-49ca-86f7-b7f1de3d747f"
 	
 }
-- size = 56;
+- size = 68;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID fc5317ae-1eb0-4979-a6b8-d3a8a8391f7a;
+	- _id = GUID f0818e12-7c9e-4205-870c-eaa79e67ce88;
 }
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::17:54:5;
 - hElement = { IHandle 
-	- _m2Class = "*";
-	- _id = GUID 6a1ebcb1-cc87-40d6-a158-a736c3bd7bac;
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "void_griffeA_ProxyOperationInterface";
+	- _id = GUID c78ed584-3c17-4b15-8277-5d3525f52c1a;
 }
-- genTime = 1.27.2026::9:31:14;
-- hElement = { IHandle 
-	- _m2Class = "*";
-	- _id = GUID 4d3a0372-ee84-429e-b46f-6ba717aea7d8;
-}
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::18:32:55;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\Project_rpy\\_DESIGN.sbsx";
@@ -100,7 +99,17 @@ I-Logix-RPY-Archive version 8.15.0 * 202303101727
 	- _name = "MaqTapisReelIO";
 	- _id = GUID 63b59bba-af1b-495a-a4ab-95e90ba503ec;
 }
-- genTime = 1.27.2026::9:34:14;
+- genTime = 1.29.2026::18:32:55;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID f7c74a0d-5845-4ddf-9eaf-a6f0a617c044;
+}
+- genTime = 1.29.2026::17:45:30;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 101ac1f4-fa28-47e8-adab-b3c08fc5c300;
+}
+- genTime = 1.29.2026::17:45:30;
 - hElement = { IHandle 
 	- _m2Class = "IActor";
 	- _filename = ".\\..\\..\\Project_rpy\\_ANALYSE.sbsx";
@@ -108,7 +117,7 @@ I-Logix-RPY-Archive version 8.15.0 * 202303101727
 	- _name = "actor_2";
 	- _id = GUID 6f4af1c4-0a85-473e-830f-3e6d586c4cd8;
 }
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::17:45:30;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\Project_rpy\\_DESIGN.sbsx";
@@ -116,12 +125,12 @@ I-Logix-RPY-Archive version 8.15.0 * 202303101727
 	- _name = "MaquetteTapis";
 	- _id = GUID 047c235f-93aa-4a94-b7bd-4a783de0c1e4;
 }
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::17:45:30;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID ec158dc9-3564-4b2f-aa89-a1793b7c0d01;
+	- _id = GUID 550e2447-fd1d-4762-aa06-e361d3bef287;
 }
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::17:45:30;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\Project_rpy\\_DESIGN.sbsx";
@@ -129,44 +138,37 @@ I-Logix-RPY-Archive version 8.15.0 * 202303101727
 	- _name = "Griffe";
 	- _id = GUID 766dd4af-770c-4f6f-b3fd-8a96309c62af;
 }
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::18:32:55;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID 6a4a3313-dc35-4e37-9c58-9c42dd62534b;
+	- _id = GUID 6a9ac53d-0611-418e-a1e8-f1b8557e6b44;
 }
-- genTime = 1.27.2026::9:31:14;
+- genTime = 1.29.2026::17:45:30;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID a16243d6-03ad-4d79-9b7f-63f79a16b95e;
+	- _id = GUID 2ec32a78-7483-46d2-b65e-5f6910770755;
 }
-- genTime = 1.27.2026::9:19:16;
-- hElement = { IHandle 
-	- _m2Class = "*";
-	- _id = GUID a827517e-e4d4-4c45-808d-5fe120b5d8ba;
-}
-- genTime = 1.27.2026::9:31:14;
-- hElement = { IHandle 
-	- _m2Class = "*";
-	- _id = GUID 7b00da3b-faa1-4ba6-8871-dc3a808d3982;
-}
-- genTime = 1.27.2026::9:34:14;
-- hElement = { IHandle 
-	- _m2Class = "*";
-	- _id = GUID f51d3909-2e9d-4da9-812a-f5a02c61c879;
-}
-- genTime = 1.27.2026::9:31:14;
-- hElement = { IHandle 
-	- _m2Class = "*";
-	- _id = GUID 9d396d0a-d5f7-46d8-8efc-661f73416523;
-}
-- genTime = 1.27.2026::9:34:14;
+- genTime = 1.29.2026::17:45:30;
 - hElement = { IHandle 
 	- _m2Class = "ISubsystem";
 	- _filename = ".\\..\\..\\Project_rpy\\_ANALYSE.sbsx";
 	- _name = "_ANALYSE";
 	- _id = GUID 0de30903-a7cb-4460-b930-0ca94fe7bd37;
 }
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::18:32:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "void_arreterA_ProxyOperationInterface";
+	- _id = GUID 5afed9e1-3e5e-492d-aca0-f5a2547f7523;
+}
+- genTime = 1.29.2026::18:32:55;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID a71635bf-44a3-4862-ba48-0a65a3e6a484;
+}
+- genTime = 1.29.2026::17:54:5;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\Project_rpy\\_DESIGN.sbsx";
@@ -174,7 +176,22 @@ I-Logix-RPY-Archive version 8.15.0 * 202303101727
 	- _name = "MaquetteIO";
 	- _id = GUID 44182d84-9424-409b-a5c1-05a2def3e90b;
 }
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::17:45:30;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 69d4cf9a-e6a2-4627-8330-79d0f628b2fb;
+}
+- genTime = 1.29.2026::17:54:5;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 3e343025-e4b4-4c47-a10f-45540970e116;
+}
+- genTime = 1.29.2026::17:45:30;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 96260481-f2c0-4cd9-b1f1-b8c2302323d6;
+}
+- genTime = 1.29.2026::17:54:5;
 - hElement = { IHandle 
 	- _m2Class = "IActor";
 	- _filename = ".\\..\\..\\Project_rpy\\_ANALYSE.sbsx";
@@ -182,54 +199,63 @@ I-Logix-RPY-Archive version 8.15.0 * 202303101727
 	- _name = "aTapisC";
 	- _id = GUID 1e885e5c-1812-47c9-b624-51a8540c06ef;
 }
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::17:45:30;
 - hElement = { IHandle 
 	- _m2Class = "ISubsystem";
 	- _filename = ".\\..\\..\\Project_rpy\\_DESIGN.sbsx";
 	- _name = "_DESIGN";
 	- _id = GUID 1bc2ecce-faf7-4840-947b-5cbf239309a2;
 }
-- genTime = 1.27.2026::9:31:14;
+- genTime = 1.29.2026::18:32:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "void_avancerA_ProxyOperationInterface";
+	- _id = GUID 8231b9a0-fdfe-43b4-9ba6-d1f728aa7482;
+}
+- genTime = 1.29.2026::18:32:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "void_disconnect_ProxyOperationInterface";
+	- _id = GUID 4bb52bc7-bc91-4241-8ab4-1a6518653e27;
+}
+- genTime = 1.29.2026::18:32:55;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID b5f5e39d-a428-45f4-8cf0-1c7c01dd647b;
+	- _id = GUID 7d7a9b19-8de7-405f-a12f-c240fac1a162;
 }
-- genTime = 1.27.2026::9:34:14;
+- genTime = 1.29.2026::17:54:5;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "void_avancerC_ProxyOperationInterface";
+	- _id = GUID e879238a-0f4c-4a45-b59d-ff1f60b7e4c6;
+}
+- genTime = 1.29.2026::18:32:55;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID 5b66de5e-4d6d-4f6f-9b8e-d4e51fa0b28d;
+	- _id = GUID 164b9a69-36fa-4b5d-8099-8e105e5519e2;
 }
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::17:45:30;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID 81b10f84-9d67-4915-8c6b-b8e0ec71d6c4;
+	- _id = GUID fca9c7a6-940f-4fed-81a0-bd1fb154e7a5;
 }
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::17:54:5;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID 32283ebc-cbb3-4caa-92fe-606e9974eccf;
+	- _id = GUID 77490b9b-0cad-4f84-b403-c3141013c6aa;
 }
-- genTime = 1.27.2026::9:31:14;
+- genTime = 1.29.2026::17:45:30;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID 515e0033-ddb1-4f9d-8a0d-7d28df45705b;
+	- _id = GUID 23bf6b21-d888-48ef-9121-475b1c4b2ecc;
 }
-- genTime = 1.27.2026::9:19:16;
-- hElement = { IHandle 
-	- _m2Class = "*";
-	- _id = GUID d9c50057-7419-409e-b2b7-78e2814bae54;
-}
-- genTime = 1.27.2026::9:19:16;
-- hElement = { IHandle 
-	- _m2Class = "*";
-	- _id = GUID 57801a40-6314-4dd2-b6a3-af357f5a5527;
-}
-- genTime = 1.27.2026::9:19:16;
-- hElement = { IHandle 
-	- _m2Class = "*";
-	- _id = GUID 7392be04-fb91-426f-b01e-b7da65e57eba;
-}
-- genTime = 1.27.2026::9:31:14;
+- genTime = 1.29.2026::17:54:5;
 - hElement = { IHandle 
 	- _m2Class = "IActor";
 	- _filename = ".\\..\\..\\Project_rpy\\_ANALYSE.sbsx";
@@ -237,7 +263,7 @@ I-Logix-RPY-Archive version 8.15.0 * 202303101727
 	- _name = "Operateur_2";
 	- _id = GUID 5b8546e3-d5dc-4043-8b6f-cb0f83ba6fbf;
 }
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::17:45:30;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\Project_rpy\\_DESIGN.sbsx";
@@ -245,64 +271,89 @@ I-Logix-RPY-Archive version 8.15.0 * 202303101727
 	- _name = "MAIN_SysConvoyage";
 	- _id = GUID 460813bd-5c0c-4197-bcb9-cedfc699a4c7;
 }
-- genTime = 1.27.2026::9:19:16;
-- hElement = { IHandle 
-	- _m2Class = "*";
-	- _id = GUID ae6f5614-4e66-4980-9cc5-9246cd901c66;
-}
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::17:45:30;
 - hElement = { IHandle 
 	- _m2Class = "ICodeGenConfigInfo";
 	- _filename = ".\\..\\..\\Project_rpy\\CodesGeneres.cmpx";
 	- _name = "CodesGeneres\\AnimationConfig";
 	- _id = GUID a4784cf6-c57c-4639-875a-3f37eb9320e3;
 }
-- genTime = 1.27.2026::10:5:1;
+- genTime = 1.29.2026::18:32:55;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID 500d4615-4712-4d89-82df-7c6bd0e80d65;
+	- _id = GUID a9519059-669d-4520-beb1-10dbdf8ff691;
 }
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::17:54:5;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "void_reculerB_ProxyOperationInterface";
+	- _id = GUID 824f8645-d4e0-45b9-ace3-9ab7d2161e90;
+}
+- genTime = 1.29.2026::18:32:55;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\Project_rpy\\_ANALYSE.sbsx";
+	- _subsystem = "_ANALYSE";
+	- _name = "MaquetteTapis";
+	- _id = GUID 37f855e2-27b2-49ed-bab3-41ba149093d5;
+}
+- genTime = 1.29.2026::17:45:30;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID 236ddaed-1f6b-4f61-a367-7aaeacee35d1;
+	- _id = GUID 80b2f0e8-7a05-46a7-a0bd-08fabae58f1d;
 }
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::17:54:5;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID 775e3758-022f-406b-99ac-05c935c501db;
+	- _id = GUID 93b125d4-863c-4e49-8d1a-9e334e2f8ba3;
 }
-- genTime = 1.27.2026::9:31:14;
+- genTime = 1.29.2026::17:54:5;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "int_connect_to_maq_ProxyOperationInterface";
+	- _id = GUID 22f55283-eb31-4db5-96a0-02c10b04bb1d;
+}
+- genTime = 1.29.2026::18:32:55;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID 61b110dc-50be-4014-a988-8f9435d599c8;
+	- _id = GUID 826ba783-4ae4-4cea-8936-4f0bad2fe4f6;
 }
-- genTime = 1.27.2026::9:31:50;
+- genTime = 1.29.2026::17:45:30;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID b02ff8ef-2115-49d0-af4c-978252fa4af3;
+	- _id = GUID 8bfc88e7-1b65-4960-969e-3b0f28a971cf;
 }
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::17:45:30;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "void_arreterC_ProxyOperationInterface";
+	- _id = GUID 8209d044-c1c0-4ca1-88a2-215c07374f25;
+}
+- genTime = 1.29.2026::18:32:55;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID c9c4c5be-93da-48d8-a68f-d06098301698;
+	- _id = GUID 8eb08c1c-fb06-4e46-8f59-c13fa89ef5cd;
 }
-- genTime = 1.27.2026::9:31:50;
+- genTime = 1.29.2026::17:45:30;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "void_avancerB_ProxyOperationInterface";
+	- _id = GUID 93aa7a3f-c328-40f9-a456-6ab2df8515b6;
+}
+- genTime = 1.29.2026::18:32:55;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID 3a580283-d37e-44de-b277-b44f05e00e1e;
+	- _id = GUID b6accbcf-c8c5-4d00-b617-57c4ee3aa96b;
 }
-- genTime = 1.27.2026::9:19:16;
-- hElement = { IHandle 
-	- _m2Class = "*";
-	- _id = GUID f1dbc573-e537-46d0-8a62-73b0233967a0;
-}
-- genTime = 1.27.2026::9:31:50;
-- hElement = { IHandle 
-	- _m2Class = "*";
-	- _id = GUID 2c47da14-60e4-48ec-8ba2-08bdf41cf8fa;
-}
-- genTime = 1.27.2026::9:31:50;
+- genTime = 1.29.2026::17:54:5;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\Project_rpy\\_DESIGN.sbsx";
@@ -310,7 +361,7 @@ I-Logix-RPY-Archive version 8.15.0 * 202303101727
 	- _name = "TapisA";
 	- _id = GUID dc56b6ed-f10a-412b-8ab4-3be981abf52a;
 }
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::18:32:55;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\Project_rpy\\_DESIGN.sbsx";
@@ -318,32 +369,61 @@ I-Logix-RPY-Archive version 8.15.0 * 202303101727
 	- _name = "MaqTapisSimIO";
 	- _id = GUID 0e1d4a12-5cc6-480e-bd74-71beccd0d8b9;
 }
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::17:45:30;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "void_reculerC_ProxyOperationInterface";
+	- _id = GUID 094eb0f2-ed90-4cb8-a441-07d69b55ce1d;
+}
+- genTime = 1.29.2026::18:32:55;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID 525dbf57-deee-425f-b7d7-b3ddaa7ee6ae;
+	- _id = GUID 506ad639-64b2-483c-87f9-251288bfadbd;
 }
-- genTime = 1.27.2026::9:31:14;
+- genTime = 1.29.2026::17:45:30;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\Project_rpy\\ProxyPortInterfaces.sbsx";
+	- _name = "ProxyPortInterfaces";
+	- _id = GUID 620d9e2e-534b-4056-b439-ee4e2804ea61;
+}
+- genTime = 1.29.2026::18:32:55;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID 08dc50cf-5e01-4567-bebf-844e72f826ea;
+	- _id = GUID 02aa2d8a-db15-4e8e-b131-9ab5f3b57db5;
 }
-- genTime = 1.27.2026::9:31:14;
+- genTime = 1.29.2026::17:54:5;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "void_arreterB_ProxyOperationInterface";
+	- _id = GUID 8df0aebf-76c2-4b19-975e-16f0e7a3bfb4;
+}
+- genTime = 1.29.2026::18:32:55;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID c7323772-df92-478b-b769-d2ff440c416a;
+	- _id = GUID 91e55eca-f48b-4970-b8b6-3f54edc924c5;
 }
-- genTime = 1.27.2026::9:31:14;
+- genTime = 1.29.2026::17:45:30;
 - hElement = { IHandle 
-	- _m2Class = "*";
-	- _id = GUID 3c52f135-0d38-4e93-88e8-76f70e435457;
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "TrameCapteurs_read_capteurs_ProxyOperationInterface";
+	- _id = GUID f4313b55-7327-4c36-8c74-0f76d3248406;
 }
-- genTime = 1.27.2026::9:31:50;
+- genTime = 1.29.2026::18:32:55;
 - hElement = { IHandle 
-	- _m2Class = "*";
-	- _id = GUID cf102862-2326-47c5-bc4e-5f23fa268159;
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "bool_send_commandes_TrameCommandes_ProxyOperationInterface";
+	- _id = GUID 55930cfc-fcbc-4b88-b5f5-04aef2c76343;
 }
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::18:32:55;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\Project_rpy\\_DESIGN.sbsx";
@@ -351,17 +431,23 @@ I-Logix-RPY-Archive version 8.15.0 * 202303101727
 	- _name = "TapisB";
 	- _id = GUID 2f48757a-cc95-4f17-a93c-5f4ab098acbb;
 }
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::18:32:55;
 - hElement = { IHandle 
-	- _m2Class = "*";
-	- _id = GUID 97ed2c04-b7f2-44f3-b2b7-5ed62962b2d9;
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "void_reculerA_ProxyOperationInterface";
+	- _id = GUID 225d4370-d78a-46a5-9e8f-050b01e68b62;
 }
-- genTime = 1.27.2026::9:31:14;
+- genTime = 1.29.2026::18:32:55;
 - hElement = { IHandle 
-	- _m2Class = "*";
-	- _id = GUID 8209b04d-6a55-4849-a4fd-d04164d9e75f;
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "void_griffeB_ProxyOperationInterface";
+	- _id = GUID a446e573-9148-439e-a079-4206682e97b6;
 }
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::18:32:55;
 - hElement = { IHandle 
 	- _m2Class = "IActor";
 	- _filename = ".\\..\\..\\Project_rpy\\_ANALYSE.sbsx";
@@ -369,38 +455,52 @@ I-Logix-RPY-Archive version 8.15.0 * 202303101727
 	- _name = "aTapisA";
 	- _id = GUID 134d4868-66b3-4283-bab4-418d9422e2d1;
 }
-- genTime = 1.27.2026::9:19:16;
+- genTime = 1.29.2026::17:45:30;
 - hElement = { IHandle 
-	- _m2Class = "IActor";
-	- _filename = ".\\..\\..\\Project_rpy\\_ANALYSE.sbsx";
-	- _subsystem = "_ANALYSE";
-	- _name = "Operateur";
+	- _m2Class = "*";
 	- _id = GUID 5b04a26f-e56b-46c9-a1e3-74853ca1c439;
 }
 - genTime = 1.27.2026::9:19:16;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID 10bd569f-ab57-43e7-969e-e6f58fc4b969;
+	- _id = GUID 1fbbef78-87fe-4fa3-820d-3ac7d99fab65;
 }
-- genTime = 1.27.2026::9:34:14;
+- genTime = 1.29.2026::17:54:5;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID bd729f74-b889-4c0d-9ced-f81dfa7d5606;
+	- _id = GUID cf939933-8050-4f7d-8702-3b46c55358b4;
 }
-- genTime = 1.27.2026::9:31:14;
+- genTime = 1.29.2026::17:45:30;
 - hElement = { IHandle 
-	- _m2Class = "IActor";
-	- _filename = ".\\..\\..\\Project_rpy\\_ANALYSE.sbsx";
-	- _subsystem = "_ANALYSE";
-	- _name = "Maquette";
+	- _m2Class = "*";
+	- _id = GUID 8b4a7f19-d19a-4ca3-b063-227a5cec7655;
+}
+- genTime = 1.29.2026::17:54:5;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 32780573-7464-4e1c-8fe2-2755478c1572;
+}
+- genTime = 1.29.2026::17:54:5;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 547ea3a9-b074-4e8b-8b3e-3dcd97b3958c;
+}
+- genTime = 1.29.2026::17:45:30;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 6f97b5fa-62db-4eaa-b2b5-cc36d58d0c67;
+}
+- genTime = 1.29.2026::17:45:30;
+- hElement = { IHandle 
+	- _m2Class = "*";
 	- _id = GUID 021846b0-3bf3-4035-a06b-20d130934065;
 }
 - genTime = 1.27.2026::9:19:16;
 - hElement = { IHandle 
 	- _m2Class = "*";
-	- _id = GUID a50d906c-9462-41b7-a9dd-0840e4a5eb23;
+	- _id = GUID 131bcb3e-7554-442f-a0b9-b2389a5cdb6a;
 }
-- genTime = 1.27.2026::9:34:14;
+- genTime = 1.29.2026::17:54:5;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\Project_rpy\\_DESIGN.sbsx";
@@ -408,5 +508,13 @@ I-Logix-RPY-Archive version 8.15.0 * 202303101727
 	- _name = "TapisC";
 	- _id = GUID e57c0e08-63e9-4e58-843c-26b2f5208514;
 }
-- genTime = 1.27.2026::9:31:14;
+- genTime = 1.29.2026::18:32:55;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\Project_rpy\\_ANALYSE.sbsx";
+	- _subsystem = "_ANALYSE";
+	- _name = "Operateur";
+	- _id = GUID 8799a584-1eb6-4ff6-b25a-9ea2f8fcebfb;
+}
+- genTime = 1.29.2026::17:45:30;
 

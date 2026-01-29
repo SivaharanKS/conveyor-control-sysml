@@ -4,7 +4,7 @@
 	Component	: CodesGeneres 
 	Configuration 	: AnimationConfig
 	Model Element	: ProxyPortInterfaces
-//!	Generated Date	: Tue, 27, Jan 2026  
+//!	Generated Date	: Thu, 29, Jan 2026  
 	File Path	: CodesGeneres\AnimationConfig\ProxyPortInterfaces.cpp
 *********************************************************************/
 
@@ -21,7 +21,29 @@
 //## auto_generated
 #include "TrameCapteurs_read_capteurs_ProxyOperationInterface.h"
 //## auto_generated
+#include "void_arreterA_ProxyOperationInterface.h"
+//## auto_generated
+#include "void_arreterB_ProxyOperationInterface.h"
+//## auto_generated
+#include "void_arreterC_ProxyOperationInterface.h"
+//## auto_generated
+#include "void_avancerA_ProxyOperationInterface.h"
+//## auto_generated
+#include "void_avancerB_ProxyOperationInterface.h"
+//## auto_generated
+#include "void_avancerC_ProxyOperationInterface.h"
+//## auto_generated
 #include "void_disconnect_ProxyOperationInterface.h"
+//## auto_generated
+#include "void_griffeA_ProxyOperationInterface.h"
+//## auto_generated
+#include "void_griffeB_ProxyOperationInterface.h"
+//## auto_generated
+#include "void_reculerA_ProxyOperationInterface.h"
+//## auto_generated
+#include "void_reculerB_ProxyOperationInterface.h"
+//## auto_generated
+#include "void_reculerC_ProxyOperationInterface.h"
 //## package ProxyPortInterfaces
 
 

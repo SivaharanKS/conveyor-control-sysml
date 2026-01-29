@@ -4,7 +4,7 @@
 	Component	: CodesGeneres 
 	Configuration 	: AnimationConfig
 	Model Element	: MaqTapisReelIO
-//!	Generated Date	: Tue, 27, Jan 2026  
+//!	Generated Date	: Thu, 29, Jan 2026  
 	File Path	: CodesGeneres\AnimationConfig\MaqTapisReelIO.cpp
 *********************************************************************/
 
@@ -19,6 +19,16 @@
 //#[ ignore
 #define _DESIGN_MaqTapisReelIO_MaqTapisReelIO_SERIALIZE OM_NO_OP
 
+#define _DESIGN_MaqTapisReelIO_AppuyerDBA_SERIALIZE OM_NO_OP
+
+#define _DESIGN_MaqTapisReelIO_AppuyerDBB_SERIALIZE OM_NO_OP
+
+#define _DESIGN_MaqTapisReelIO_AppuyerDCA_SERIALIZE OM_NO_OP
+
+#define _DESIGN_MaqTapisReelIO_AppuyerDCB_SERIALIZE OM_NO_OP
+
+#define _DESIGN_MaqTapisReelIO_AvancerA_SERIALIZE OM_NO_OP
+
 #define _DESIGN_MaqTapisReelIO_Demarrage_SERIALIZE OM_NO_OP
 
 #define _DESIGN_MaqTapisReelIO_connect_to_maq_SERIALIZE OM_NO_OP
@@ -26,6 +36,8 @@
 #define _DESIGN_MaqTapisReelIO_disconnect_SERIALIZE OM_NO_OP
 
 #define _DESIGN_MaqTapisReelIO_init_com_SERIALIZE OM_NO_OP
+
+#define _DESIGN_MaqTapisReelIO_message_0_SERIALIZE OM_NO_OP
 
 #define _DESIGN_MaqTapisReelIO_mode_reel_SERIALIZE OM_NO_OP
 
@@ -164,6 +176,36 @@ MaqTapisReelIO::~MaqTapisReelIO() {
     NOTIFY_DESTRUCTOR(~MaqTapisReelIO, false);
 }
 
+void MaqTapisReelIO::AppuyerDBA() {
+    NOTIFY_OPERATION(AppuyerDBA, AppuyerDBA(), 0, _DESIGN_MaqTapisReelIO_AppuyerDBA_SERIALIZE);
+    //#[ operation AppuyerDBA()
+    //#]
+}
+
+void MaqTapisReelIO::AppuyerDBB() {
+    NOTIFY_OPERATION(AppuyerDBB, AppuyerDBB(), 0, _DESIGN_MaqTapisReelIO_AppuyerDBB_SERIALIZE);
+    //#[ operation AppuyerDBB()
+    //#]
+}
+
+void MaqTapisReelIO::AppuyerDCA() {
+    NOTIFY_OPERATION(AppuyerDCA, AppuyerDCA(), 0, _DESIGN_MaqTapisReelIO_AppuyerDCA_SERIALIZE);
+    //#[ operation AppuyerDCA()
+    //#]
+}
+
+void MaqTapisReelIO::AppuyerDCB() {
+    NOTIFY_OPERATION(AppuyerDCB, AppuyerDCB(), 0, _DESIGN_MaqTapisReelIO_AppuyerDCB_SERIALIZE);
+    //#[ operation AppuyerDCB()
+    //#]
+}
+
+void MaqTapisReelIO::AvancerA() {
+    NOTIFY_OPERATION(AvancerA, AvancerA(), 0, _DESIGN_MaqTapisReelIO_AvancerA_SERIALIZE);
+    //#[ operation AvancerA()
+    //#]
+}
+
 void MaqTapisReelIO::Demarrage() {
     NOTIFY_OPERATION(Demarrage, Demarrage(), 0, _DESIGN_MaqTapisReelIO_Demarrage_SERIALIZE);
     //#[ operation Demarrage()
@@ -245,6 +287,12 @@ void MaqTapisReelIO::init_com() {
             
             
             
+    //#]
+}
+
+void MaqTapisReelIO::message_0() {
+    NOTIFY_OPERATION(message_0, message_0(), 0, _DESIGN_MaqTapisReelIO_message_0_SERIALIZE);
+    //#[ operation message_0()
     //#]
 }
 

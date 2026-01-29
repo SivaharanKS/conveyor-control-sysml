@@ -4,7 +4,7 @@
 	Component	: CodesGeneres 
 	Configuration 	: AnimationConfig
 	Model Element	: MaqTapisReelIO
-//!	Generated Date	: Mon, 19, Jan 2026  
+//!	Generated Date	: Thu, 29, Jan 2026  
 	File Path	: CodesGeneres\AnimationConfig\MaqTapisReelIO.h
 *********************************************************************/
 
@@ -152,6 +152,21 @@ public :
     
     ////    Operations    ////
     
+    //## operation AppuyerDBA()
+    virtual void AppuyerDBA();
+    
+    //## operation AppuyerDBB()
+    virtual void AppuyerDBB();
+    
+    //## operation AppuyerDCA()
+    virtual void AppuyerDCA();
+    
+    //## operation AppuyerDCB()
+    virtual void AppuyerDCB();
+    
+    //## operation AvancerA()
+    virtual void AvancerA();
+    
     //## operation Demarrage()
     virtual void Demarrage();
     
@@ -163,6 +178,9 @@ public :
     
     //## operation init_com()
     virtual void init_com();
+    
+    //## operation message_0()
+    virtual void message_0();
     
     //## operation mode_reel()
     virtual void mode_reel();

@@ -95,12 +95,11 @@ OBJS= \
   TapisC.obj \
   Griffe.obj \
   TapisB.obj \
-  Operateur.obj \
   actor_2.obj \
   aTapisA.obj \
   aTapisC.obj \
   Operateur_2.obj \
-  Maquette.obj \
+  Operateur.obj \
   _DESIGN.obj \
   _ANALYSE.obj \
   ProxyPortInterfaces.obj
@@ -240,12 +239,6 @@ TapisB.obj : TapisB.cpp TapisB.h    _DESIGN.h void_avancerA_ProxyOperationInterf
 
 
 
-Operateur.obj : Operateur.cpp Operateur.h    _ANALYSE.h 
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Operateur.obj" "Operateur.cpp" 
-
-
-
 actor_2.obj : actor_2.cpp actor_2.h    _ANALYSE.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"actor_2.obj" "actor_2.cpp" 
@@ -270,9 +263,9 @@ Operateur_2.obj : Operateur_2.cpp Operateur_2.h    _ANALYSE.h
 
 
 
-Maquette.obj : Maquette.cpp Maquette.h    _ANALYSE.h 
+Operateur.obj : Operateur.cpp Operateur.h    _ANALYSE.h 
 	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Maquette.obj" "Maquette.cpp" 
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Operateur.obj" "Operateur.cpp" 
 
 
 
@@ -330,12 +323,11 @@ clean:
 	if exist TapisC.obj erase TapisC.obj
 	if exist Griffe.obj erase Griffe.obj
 	if exist TapisB.obj erase TapisB.obj
-	if exist Operateur.obj erase Operateur.obj
 	if exist actor_2.obj erase actor_2.obj
 	if exist aTapisA.obj erase aTapisA.obj
 	if exist aTapisC.obj erase aTapisC.obj
 	if exist Operateur_2.obj erase Operateur_2.obj
-	if exist Maquette.obj erase Maquette.obj
+	if exist Operateur.obj erase Operateur.obj
 	if exist _DESIGN.obj erase _DESIGN.obj
 	if exist _ANALYSE.obj erase _ANALYSE.obj
 	if exist ProxyPortInterfaces.obj erase ProxyPortInterfaces.obj
